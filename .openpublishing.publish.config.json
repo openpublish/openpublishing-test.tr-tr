@@ -7,7 +7,6 @@
       "build_source_folder": "openpublishing/azure-docs-pr",
       "build_output_subfolder": "openpublishing/test/azure",
       "locale": "tr-tr",
-      "version": 0,
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -16,14 +15,14 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": false,
+      "version": 0
     },
     {
       "docset_name": "openpublishing-test-docs",
       "build_source_folder": "openpublishing/test",
       "build_output_subfolder": "openpublishing/test-docs",
       "locale": "tr-tr",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -32,14 +31,14 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": false,
+      "version": 0
     },
     {
       "docset_name": "openpublishing-test-op",
       "build_source_folder": "openpublishing/test",
       "build_output_subfolder": "openpublishing/test-op",
       "locale": "tr-tr",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -47,14 +46,14 @@
         "RestApi": "Content"
       },
       "build_entry_point": "op",
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": false,
+      "version": 0
     },
     {
       "docset_name": "openpublishing-test-reference",
       "build_source_folder": "openpublishing/test-reference",
       "build_output_subfolder": "openpublishing/test-reference",
       "locale": "tr-tr",
-      "version": 0,
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -63,14 +62,14 @@
       },
       "build_entry_point": "op",
       "template_folder": "_themes.OPS",
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": false,
+      "version": 0
     },
     {
       "docset_name": "openpublishing-test-starterkit",
       "build_source_folder": "openpublishing/test",
       "build_output_subfolder": "openpublishing/test-starterkit",
       "locale": "tr-tr",
-      "version": 0,
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -79,14 +78,14 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes.OPS",
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": false,
+      "version": 0
     },
     {
       "docset_name": "openpublishing-test-static-vscom",
       "build_source_folder": "openpublishing/test",
       "build_output_subfolder": "openpublishing/test-static-vscom",
       "locale": "tr-tr",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -95,14 +94,14 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes.VS.Modern",
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": false,
+      "version": 0
     },
     {
       "docset_name": "openpublishing-test-op-technet",
       "build_source_folder": "openpublishing/test",
       "build_output_subfolder": "openpublishing/test",
       "locale": "tr-tr",
-      "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -110,13 +109,15 @@
         "RestApi": "Content"
       },
       "build_entry_point": "op",
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": false,
+      "version": 0
     }
   ],
   "notification_subscribers": [
     "opbuild@microsoft.com"
   ],
   "branches_to_filter": [],
+  "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "dependent_repositories": [
